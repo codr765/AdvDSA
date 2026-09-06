@@ -11,16 +11,15 @@ public class ValidTriangles {
 
         while (right >= 2) {
             int left = 0;
+            int mid = right - 1;
 
-            while (left < right - 1) {
-                int mid = left + 1;
-
-                while (mid < right && nums[left] + nums[mid] <= nums[right]) {
-                    mid++;
+            while (left < mid) {
+                if (nums[left] + nums[mid] > nums[right]) {
+                    count += mid - left;
+                    mid--;
+                } else {
+                    left++;
                 }
-
-                count += right - mid;
-                left++;
             }
 
             right--;
