@@ -1,0 +1,27 @@
+| **643** | Maximum Average Subarray I | Fixed window |
+| **1456** | Maximum Number of Vowels in a Substring of Given Length | Fixed window |
+| **219** | Contains Duplicate II | Window + HashSet |
+| **1876** | Substrings of Size Three with Distinct Characters | Fixed window |
+| **1343** | Number of Sub-arrays of Size K and Average ≥ Threshold | Fixed window |
+
+ 
+| --- | --- | --- |
+| **3** | Longest Substring Without Repeating Characters | Variable window |
+| **209** | Minimum Size Subarray Sum | Variable window |
+| **567** | Permutation in String | Frequency map |
+| **438** | Find All Anagrams in a String | Frequency map |
+| **424** | Longest Repeating Character Replacement | Variable window + frequency |
+| **904** | Fruit Into Baskets | At most 2 distinct |
+| **1004** | Max Consecutive Ones III | At most K zeros |
+| **1493** | Longest Subarray of 1's After Deleting One Element | Variable window |
+| **1052** | Grumpy Bookstore Owner | Fixed window |
+
+
+| --- | --- | --- |
+| **76** | Minimum Window Substring | Variable window + frequency |
+| **239** | Sliding Window Maximum | Monotonic deque |
+| **30** | Substring with Concatenation of All Words | Multiple windows |
+| **992** | Subarrays with K Different Integers | AtMost(K) trick |
+| **1248** | Count Number of Nice Subarrays | AtMost(K) / prefix sum |
+| **1438** | Longest Continuous Subarray With Absolute Diff ≤ Limit | Two monotonic deques |
+| **480** | Sliding Window Median | Two heaps / ordered structure |
