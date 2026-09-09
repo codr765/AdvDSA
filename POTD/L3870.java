@@ -1,4 +1,4 @@
-public class CountComma {
+public class L3870 {
     static int countCommas(int n) {
 
         if (n < 1000) {
