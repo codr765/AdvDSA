@@ -1,4 +1,4 @@
-public class Search2DMatrix1 {
+public class Search2DMatrixI {
 
     static boolean searchMatrix(int[][] matrix, int target) {
 
