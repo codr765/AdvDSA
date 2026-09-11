@@ -1,4 +1,3 @@
-
 public class LC3 {
     static int lengthOfLongestSubstring(String s) {
         int largest = 0;
