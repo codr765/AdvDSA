@@ -1,6 +1,3 @@
-import java.util.Arrays;
-import java.util.HashMap;
-
 public class LC594 {
 
     static int findLHS(int[] nums) {
@@ -36,6 +33,8 @@ public class LC594 {
         // }
 
         // return ans;
+
+        return 0;
     }
 
     public static void main(String[] args) {

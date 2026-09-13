@@ -1,4 +1,4 @@
-class Q1 {
+class Q1518 {
     public static void main(String[] args) {
         String s = "aba";
         int k = 1;

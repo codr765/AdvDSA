@@ -1,4 +1,4 @@
-public class Q3 {
+public class Q3518 {
     public static void main(String[] args) {
         int[] position = { 1, 5, 6, 20 };
         int[] speed = { 4, 3, 2, 3 };
