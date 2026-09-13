@@ -1,0 +1,1 @@
+clear range, check if power of 2, count set bits, fast exponentiation
