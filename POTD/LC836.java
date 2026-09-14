@@ -1,6 +1,6 @@
 public class LC836 {
 
-    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
+    static boolean isRectangleOverlap(int[] rec1, int[] rec2) {
 
         int x1 = rec1[0];
         int y1 = rec1[1];
@@ -23,5 +23,7 @@ public class LC836 {
 
         int[] rec1 = { 0, 0, 2, 2 };
         int[] rec2 = { 1, 1, 3, 3 };
+
+        System.out.println(isRectangleOverlap(rec1, rec2));
     }
 }
