@@ -1,1 +1,11 @@
-clear range, check if power of 2, count set bits, fast exponentiation
+get
+set
+clear
+update
+clear last i bits
+clear range
+check if power of 2
+count set bits
+
+
+fast exponentiation
