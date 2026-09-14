@@ -9,3 +9,48 @@ count set bits
 
 
 fast exponentiation
+
+
+| #        | LeetCode                              | Main concept        |
+| -------- | ------------------------------------- | ------------------- |
+| **191**  | Number of 1 Bits                      | `n & (n-1)`         |
+| **231**  | Power of Two                          | `n & (n-1)`         |
+| **338**  | Counting Bits                         | DP + bits           |
+| **136**  | Single Number                         | XOR                 |
+| **268**  | Missing Number                        | XOR                 |
+| **190**  | Reverse Bits                          | Shift + OR          |
+| **476**  | Number Complement                     | Bitwise NOT / mask  |
+| **1009** | Complement of Base 10 Integer         | Complement + bits   |
+| **693**  | Binary Number with Alternating Bits   | Shift + XOR         |
+| **461**  | Hamming Distance                      | XOR + counting bits |
+| **2220** | Minimum Bit Flips to Convert Number   | XOR + set bits      |
+| **1356** | Sort Integers by The Number of 1 Bits | Set-bit counting    |
+
+
+| #        | LeetCode                                             | Main concept            |
+| -------- | ---------------------------------------------------- | ----------------------- |
+| **137**  | Single Number II                                     | Bit counting            |
+| **260**  | Single Number III                                    | XOR + rightmost set bit |
+| **201**  | Bitwise AND of Numbers Range                         | Common prefix           |
+| **371**  | Sum of Two Integers                                  | Addition using bits     |
+| **89**   | Gray Code                                            | XOR                     |
+| **78**   | Subsets                                              | Bitmask                 |
+| **90**   | Subsets II                                           | Bitmask + duplicates    |
+| **1318** | Minimum Flips to Make `a OR b == c`                  | Bit manipulation        |
+| **1545** | Find Kth Bit in Nth Binary String                    | Recursion + bits        |
+| **1442** | Count Triplets That Can Form Two Arrays of Equal XOR | Prefix XOR              |
+| **2411** | Smallest Subarrays With Maximum Bitwise OR           | Bitwise OR              |
+| **898**  | Bitwise ORs of Subarrays                             | OR + optimization       |
+
+
+| #        | LeetCode                                       | Main concept               |
+| -------- | ---------------------------------------------- | -------------------------- |
+| **52**   | N-Queens II                                    | Bitmask optimization       |
+| **847**  | Shortest Path Visiting All Nodes               | Bitmask + BFS              |
+| **1178** | Number of Valid Words for Each Puzzle          | Bitmask                    |
+| **1125** | Smallest Sufficient Team                       | Bitmask DP                 |
+| **980**  | Unique Paths III                               | Bitmask/backtracking ideas |
+| **1681** | Minimum Incompatibility                        | Bitmask DP                 |
+| **1601** | Maximum Number of Achievable Transfer Requests | Bitmask enumeration        |
+| **1799** | Maximize Score After N Operations              | Bitmask DP                 |
+| **1349** | Maximum Students Taking Exam                   | Bitmask DP                 |
