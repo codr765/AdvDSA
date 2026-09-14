@@ -9,6 +9,7 @@ public class CountSetBits {
             // }
 
             n = n & (n - 1);
+            total++;
 
             // n = n >> 1;
         }
