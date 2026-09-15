@@ -1,24 +1,23 @@
 public class LC424 {
 
     static int characterReplacement(String s, int k) {
-        int[] freq = new int[26];
-
-        int left = 0;
-        int maxFreq = 0;
         int ans = 0;
 
+        int maxFreq = 0;
+
+        int[] hash = new int[26];
+
+        int left = 0;
+
         for (int right = 0; right < s.length(); right++) {
+            char curr = s.charAt(right);
 
-            int index = s.charAt(right) - 'A';
+            hash[curr - 'A']++;
 
-            freq[index]++;
-
-            maxFreq = Math.max(maxFreq, freq[index]);
+            maxFreq = Math.max(maxFreq, hash[curr - 'A']);
 
             while ((right - left + 1) - maxFreq > k) {
-
-                freq[s.charAt(left) - 'A']--;
-
+                hash[s.charAt(left) - 'A']--;
                 left++;
             }
 
@@ -26,6 +25,7 @@ public class LC424 {
         }
 
         return ans;
+
     }
 
     public static void main(String[] args) {
