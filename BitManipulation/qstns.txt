@@ -22,6 +22,10 @@ fast exponentiation
 | **476**  | Number Complement                     | Bitwise NOT / mask  |
 | **1009** | Complement of Base 10 Integer         | Complement + bits   |
 | **693**  | Binary Number with Alternating Bits   | Shift + XOR         |
+
+
+REM :
+
 | **461**  | Hamming Distance                      | XOR + counting bits |
 | **2220** | Minimum Bit Flips to Convert Number   | XOR + set bits      |
 | **1356** | Sort Integers by The Number of 1 Bits | Set-bit counting    |
