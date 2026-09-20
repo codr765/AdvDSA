@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class C620Q2 {
+public class C520Q2 {
 
     static int countIntersectingIntervals(int[][] intervals) {
 
