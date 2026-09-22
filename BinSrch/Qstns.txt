@@ -1,0 +1,30 @@
+| # | LeetCode                                 | What you'll learn       |
+| - | ---------------------------------------- | ----------------------- |
+| 1 | **LC 704 — Binary Search**               | Basic binary search     |
+| 2 | **LC 35 — Search Insert Position**       | Lower-bound idea        |
+| 3 | **LC 34 — Find First and Last Position** | Boundary search         |
+| 4 | **LC 69 — Sqrt(x)**                      | Binary search on answer |
+| 5 | **LC 367 — Valid Perfect Square**        | Binary search on answer |
+
+
+| #  | LeetCode                                                | What you'll learn                    |
+| -- | ------------------------------------------------------- | ------------------------------------ |
+| 6  | **LC 33 — Search in Rotated Sorted Array**              | Rotated array                        |
+| 7  | **LC 81 — Search in Rotated Sorted Array II**           | Duplicates + rotated array           |
+| 8  | **LC 153 — Find Minimum in Rotated Sorted Array**       | Find pivot/minimum                   |
+| 9  | **LC 162 — Find Peak Element**                          | Binary-search reasoning              |
+| 10 | **LC 875 — Koko Eating Bananas**                        | Binary search on answer              |
+| 11 | **LC 1011 — Capacity To Ship Packages Within D Days**   | Binary search on answer              |
+| 12 | **LC 1283 — Find Smallest Divisor Given a Threshold**   | Binary search on answer              |
+| 13 | **LC 1482 — Minimum Number of Days to Make m Bouquets** | Binary search on answer              |
+| 14 | **LC 1539 — Kth Missing Positive Number**               | Binary search with derived condition |
+| 15 | **LC 981 — Time Based Key-Value Store**                 | Binary search over timestamps        |
+
+
+| #  | LeetCode                                      | What you'll learn                |
+| -- | --------------------------------------------- | -------------------------------- |
+| 16 | **LC 4 — Median of Two Sorted Arrays**        | Advanced binary search           |
+| 17 | **LC 410 — Split Array Largest Sum**          | Advanced binary search on answer |
+| 18 | **LC 1231 — Divide Chocolate**                | Binary search on answer          |
+| 19 | **LC 778 — Swim in Rising Water**             | Binary search + graph            |
+| 20 | **LC 719 — Find K-th Smallest Pair Distance** | Binary search + counting         |
