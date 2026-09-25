@@ -1,18 +1,20 @@
 public class Subsets {
-    static void subsets(String s, int idx) {
-        if (s == "" || idx == s.length()) {
-            System.out.println("");
+
+    static void subsets(String s, int index, String current) {
+
+        if (index == s.length()) {
+            System.out.println(current);
             return;
         }
 
-        System.out.println(s.charAt(idx));
+        subsets(s, index + 1, current + s.charAt(index));
 
-        subsets(s.substring(idx, s.length()), idx + 1);
+        subsets(s, index + 1, current);
     }
 
     public static void main(String[] args) {
         String s = "abc";
 
-        subsets(s, 0);
+        subsets(s, 0, "");
     }
 }
