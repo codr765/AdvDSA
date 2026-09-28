@@ -3,21 +3,21 @@ public class LC875 {
         int left = 1;
         int right = 0;
 
-        for (int pile : piles) {
-            right = Math.max(right, pile);
+        for (int i : piles) {
+            right = Math.max(right, i);
         }
 
-        while (left < right) {
+        while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            int hours = 0;
+            int totalHours = 0;
 
-            for (int pile : piles) {
-                hours += (pile + mid - 1) / mid;
+            for (int i : piles) {
+                totalHours += (int) Math.ceil((double) i / mid);
             }
 
-            if (hours <= h) {
-                right = mid;
+            if (totalHours <= h) {
+                right = mid - 1;
             } else {
                 left = mid + 1;
             }
