@@ -3,33 +3,33 @@ public class LC1011 {
         int left = 0;
         int right = 0;
 
-        for (int weight : weights) {
-            left = Math.max(left, weight);
-            right += weight;
+        for (int i : weights) {
+            if (i > left) {
+                left = i;
+            }
+
+            right += i;
         }
 
-        while (left <= right) {
+        while (left < right) {
             int mid = left + (right - left) / 2;
+            int currWeight = 0;
+            int currDays = 1;
 
-            int currentWeight = 0;
-            int requiredDays = 1;
-
-            for (int weight : weights) {
-                if (currentWeight + weight > mid) {
-                    requiredDays++;
-                    currentWeight = 0;
+            for (int i : weights) {
+                if (currWeight + i > mid) {
+                    currDays++;
+                    currWeight = 0;
                 }
-
-                currentWeight += weight;
+                currWeight += i;
             }
 
-            if (requiredDays <= days) {
-                right = mid - 1;
-            } else {
+            if (currDays > days) {
                 left = mid + 1;
+            } else {
+                right = mid - 1;
             }
         }
-
         return left;
     }
 
