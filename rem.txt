@@ -1,3 +1,3 @@
-Tower of Hanoi
 lc1011
-lc1111
+LC1111
+Tower of Hanoi
