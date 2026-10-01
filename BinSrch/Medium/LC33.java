@@ -1,7 +1,7 @@
 public class LC33 {
 
     static int search(int[] nums, int target) {
-        int left = 0;
+        int left = 1;
         int right = nums.length - 1;
 
         while (left <= right) {
