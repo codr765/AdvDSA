@@ -1,15 +1,43 @@
-public class LC1482 {
+class LC1482 {
     static int minDays(int[] bloomDay, int m, int k) {
-        int min = -1;
 
-        return min;
-    }
+        if ((long) m * k > bloomDay.length) {
+            return -1;
+        }
 
-    public static void main(String[] args) {
-        int[] bloomDay = { 1, 10, 3, 10, 2 };
-        int m = 3;
-        int k = 1;
+        int left = 1;
+        int right = bloomDay[0];
 
-        System.out.println(minDays(bloomDay, m, k));
+        for (int i : bloomDay) {
+            right = Math.max(right, i);
+        }
+
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+
+            int ct = 0;
+            int tmp = 0;
+
+            for (int i : bloomDay) {
+                if (i <= mid) {
+                    tmp++;
+
+                    if (tmp == k) {
+                        ct++;
+                        tmp = 0;
+                    }
+                } else {
+                    tmp = 0;
+                }
+            }
+
+            if (ct >= m) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return left;
     }
 }
