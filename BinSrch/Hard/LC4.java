@@ -1,31 +1,26 @@
 public class LC4 {
     static double findMedianSortedArraysBrute(int[] nums1, int[] nums2) {
-        int total = nums1.length + nums2.length;
-        int iter = total / 2;
+        int n = nums1.length;
+        int m = nums2.length;
 
-        int i = 0;
-        int idx1 = 0;
-        int idx2 = 0;
-        int prev = 0;
-        int curr = 0;
+        int i = 0, j = 0;
+        int prev = 0, curr = 0;
 
-        while (i <= iter) {
+        for (int k = 0; k <= (n + m) / 2; k++) {
             prev = curr;
 
-            if (idx1 < nums1.length && (idx2 >= nums2.length || nums1[idx1] <= nums2[idx2])) {
-                curr = nums1[idx1++];
+            if (i < n && (j >= m || nums1[i] <= nums2[j])) {
+                curr = nums1[i++];
             } else {
-                curr = nums2[idx2++];
+                curr = nums2[j++];
             }
-
-            i++;
         }
 
-        if (total % 2 == 1) {
-            return curr;
+        if ((n + m) % 2 == 0) {
+            return (prev + curr) / 2.0;
         }
 
-        return ((double) prev + curr) / 2;
+        return curr;
     }
 
     public static void main(String[] args) {
