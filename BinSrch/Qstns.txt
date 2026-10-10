@@ -28,3 +28,5 @@
 | 18 | **LC 1231 — Divide Chocolate**                | Binary search on answer          |
 | 19 | **LC 778 — Swim in Rising Water**             | Binary search + graph            |
 | 20 | **LC 719 — Find K-th Smallest Pair Distance** | Binary search + counting         |
+
+981
