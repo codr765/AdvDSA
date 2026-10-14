@@ -9,7 +9,9 @@ LC 1475 - Final Prices With a Special Discount in a Shop
 
 MEDIUM
 LC 155 - Min Stack
-LC 150 - Evaluate Reverse Polish Notation
+
+LC 150 - Evaluate Reverse Polish Notation ***
+
 LC 71 - Simplify Path
 LC 394 - Decode String
 LC 739 - Daily Temperatures
