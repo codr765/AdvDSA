@@ -75,3 +75,35 @@ public class LC155 {
 // return stk.peek()[1];
 // }
 // }
+
+// Way 3 :
+
+// class MinStack {
+// Stack<int[]> stk;
+
+// public MinStack() {
+// stk = new Stack<>();
+// }
+
+// public void push(int value) {
+// int min = value;
+
+// if (!stk.isEmpty()) {
+// min = Math.min(value, stk.peek()[1]);
+// }
+
+// stk.push(new int[] { value, min });
+// }
+
+// public void pop() {
+// stk.pop();
+// }
+
+// public int top() {
+// return stk.peek()[0];
+// }
+
+// public int getMin() {
+// return stk.peek()[1];
+// }
+// }
