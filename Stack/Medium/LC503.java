@@ -7,23 +7,50 @@ public class LC503 {
         Stack<Integer> stk = new Stack<>();
 
         Arrays.fill(ans, -1);
-        int n = nums.length;
 
-        for (int i = 2 * n - 1; i >= 0; i--) {
-            int idx = i % n;
+        int ct = 0;
+        int i = 0;
 
-            while (!stk.isEmpty() && stk.peek() <= nums[idx]) {
-                stk.pop();
+        while (ct < 2) {
+            while (!stk.isEmpty() && nums[stk.peek()] < nums[i]) {
+                ans[stk.pop()] = nums[i];
             }
 
-            if (i < n && !stk.isEmpty()) {
-                ans[idx] = stk.peek();
+            if (ct == 0) {
+                stk.push(i);
             }
 
-            stk.push(nums[idx]);
+            i++;
+
+            if (i == nums.length) {
+                i = 0;
+                ct++;
+            }
         }
 
         return ans;
+
+        // int[] ans = new int[nums.length];
+        // Stack<Integer> stk = new Stack<>();
+
+        // Arrays.fill(ans, -1);
+        // int n = nums.length;
+
+        // for (int i = 2 * n - 1; i >= 0; i--) {
+        // int idx = i % n;
+
+        // while (!stk.isEmpty() && stk.peek() <= nums[idx]) {
+        // stk.pop();
+        // }
+
+        // if (i < n && !stk.isEmpty()) {
+        // ans[idx] = stk.peek();
+        // }
+
+        // stk.push(nums[idx]);
+        // }
+
+        // return ans;
     }
 
     public static void main(String[] args) {
