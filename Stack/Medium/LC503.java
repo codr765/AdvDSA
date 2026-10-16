@@ -1,0 +1,40 @@
+import java.util.Arrays;
+import java.util.Stack;
+
+public class LC503 {
+    static int[] nextGreaterElements(int[] nums) {
+        int[] ans = new int[nums.length];
+        Stack<Integer> stk = new Stack<>();
+
+        Arrays.fill(ans, -1);
+
+        int ct = 0;
+        int i = 0;
+
+        while (ct < 2) {
+            while (!stk.isEmpty() && nums[stk.peek()] < nums[i]) {
+                ans[stk.pop()] = nums[i];
+            }
+
+            if (ct == 0) {
+                stk.push(i);
+            }
+
+            i++;
+
+            if (i == nums.length) {
+                i = 0;
+                ct++;
+            }
+        }
+
+        return ans;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = { 1, 2, 3, 4, 3 };
+        // {2, 3, 4, -1, 4}
+
+        System.out.println(Arrays.toString(nextGreaterElements(nums)));
+    }
+}
