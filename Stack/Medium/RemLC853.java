@@ -1,8 +1,30 @@
+import java.util.Arrays;
+import java.util.Stack;
+
 public class RemLC853 {
     static int carFleet(int target, int[] position, int[] speed) {
-        int ct = 0;
+        int n = position.length;
 
-        return ct;
+        int[][] cars = new int[n][2];
+
+        for (int i = 0; i < n; i++) {
+            cars[i][0] = position[i];
+            cars[i][1] = speed[i];
+        }
+
+        Arrays.sort(cars, (a, b) -> b[0] - a[0]);
+
+        Stack<Double> stk = new Stack<>();
+
+        for (int i = 0; i < n; i++) {
+            double time = (double) (target - cars[i][0]) / cars[i][1];
+
+            if (stk.isEmpty() || time > stk.peek()) {
+                stk.push(time);
+            }
+        }
+
+        return stk.size();
     }
 
     public static void main(String[] args) {
