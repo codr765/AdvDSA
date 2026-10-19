@@ -24,15 +24,15 @@ LC 853 - Car Fleet
 LC 907 - Sum of Subarray Minimums
 LC 2104 - Sum of Subarray Ranges
 LC 1856 - Maximum Subarray Min-Product
-LC 84 - Largest Rectangle in Histogram
-LC 85 - Maximal Rectangle
-LC 1944 - Number of Visible People in a Queue
-LC 224 - Basic Calculator
 LC 227 - Basic Calculator II
-LC 726 - Number of Atoms
 
 
 HARD
 LC 32 - Longest Valid Parentheses
+LC 84 - Largest Rectangle in Histogram
+LC 85 - Maximal Rectangle
+LC 224 - Basic Calculator
 LC 321 - Create Maximum Number
 LC 772 - Basic Calculator III
+LC 1944 - Number of Visible People in a Queue
+LC 726 - Number of Atoms

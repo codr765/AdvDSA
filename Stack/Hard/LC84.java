@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class LC82 {
+public class LC84 {
     static int largestRectangleArea(int[] heights) {
         Stack<Integer> stk = new Stack<>();
         int maxArea = 0;
