@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Stack;
 
-public class RemLC853 {
+public class LC853 {
     static int carFleet(int target, int[] position, int[] speed) {
         int n = position.length;
 
