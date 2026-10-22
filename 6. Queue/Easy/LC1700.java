@@ -1,4 +1,4 @@
-class Solution {
+public class LC1700 {
     public int countStudents(int[] students, int[] sandwiches) {
 
         int[] count = new int[2];

@@ -6,11 +6,12 @@ LC 2073 - Time Needed to Buy Tickets
 LC 225 - Implement Stack using Queues
 LC 232 - Implement Queue using Stacks
 LC 346 - Moving Average from Data Stream
-LC 622 - Design Circular Queue
-LC 641 - Design Circular Deque
 
 
 MEDIUM
+
+LC 622 - Design Circular Queue
+LC 641 - Design Circular Deque
 
 Queue Simulation & Design
 

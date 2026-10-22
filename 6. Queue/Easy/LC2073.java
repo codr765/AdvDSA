@@ -1,4 +1,4 @@
-class Solution {
+public class LC2073 {
     public int timeRequiredToBuy(int[] tickets, int k) {
         int time = 0;
 
