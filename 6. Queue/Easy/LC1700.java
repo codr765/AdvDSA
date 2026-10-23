@@ -1,25 +1,25 @@
 public class LC1700 {
-    public int countStudents(int[] students, int[] sandwiches) {
+    public int ctStudents(int[] students, int[] sandwiches) {
 
-        int[] count = new int[2];
+        int[] ct = new int[2];
 
         for (int s : students) {
-            count[s]++;
+            ct[s]++;
         }
 
         for (int s : sandwiches) {
 
-            if (count[s] == 0) {
-                return count[0] + count[1];
+            if (ct[s] == 0) {
+                return ct[0] + ct[1];
             }
 
-            count[s]--;
+            ct[s]--;
         }
 
         return 0;
     }
 
-    public int countStudentsBrute(int[] students, int[] sandwiches) {
+    public int ctStudentsBrute(int[] students, int[] sandwiches) {
 
         int n = students.length;
         int unable = n;
