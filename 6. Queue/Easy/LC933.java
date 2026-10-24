@@ -2,19 +2,19 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 class RecentCounter {
-    Queue<Integer> queue;
+    Queue<Integer> q;
 
     public RecentCounter() {
-        queue = new ArrayDeque<>();
+        q = new ArrayDeque<>();
     }
 
     public int ping(int t) {
-        queue.add(t);
+        q.add(t);
 
-        while (queue.peek() < t - 3000) {
-            queue.poll();
+        while (q.peek() < t - 3000) {
+            q.poll();
         }
 
-        return queue.size();
+        return q.size();
     }
 }
