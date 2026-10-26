@@ -1,0 +1,4 @@
+4 Traversal
+Height
+No. of Nodes
+Sum of Nodes
