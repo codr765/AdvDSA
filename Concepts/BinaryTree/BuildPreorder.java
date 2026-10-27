@@ -27,6 +27,30 @@ public class BuildPreorder {
         return node;
     }
 
+    static int height(Node root) {
+        if (root == null) {
+            return 0;
+        }
+
+        return Math.max(height(root.left), height(root.right)) + 1;
+    }
+
+    static int ctNodes(Node root) {
+        if (root == null) {
+            return 0;
+        }
+
+        return ctNodes(root.left) + ctNodes(root.right) + 1;
+    }
+
+    static int sum(Node root) {
+        if (root == null) {
+            return 0;
+        }
+
+        return sum(root.left) + sum(root.right) + root.val;
+    }
+
     static void preOrder(Node root) {
         if (root == null) {
             return;
