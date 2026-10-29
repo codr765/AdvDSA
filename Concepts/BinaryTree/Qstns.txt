@@ -2,3 +2,7 @@
 Height
 No. of Nodes
 Sum of Nodes
+
+Diameter
+Subtree
+Top View
