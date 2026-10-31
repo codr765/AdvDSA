@@ -220,9 +220,9 @@ public class BST {
 
     public static void main(String[] args) {
 
-        int[] nodes = { 5, 1, 3, 4, 2, 7 };
+        // int[] nodes = { 5, 1, 3, 4, 2, 7 };
 
-        Node root = buildBST(nodes);
+        // Node root = buildBST(nodes);
 
         // System.out.println(isValid(root, Long.MIN_VALUE, Long.MAX_VALUE));
 
