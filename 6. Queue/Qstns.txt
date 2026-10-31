@@ -27,10 +27,6 @@ LC 239 - Sliding Window Maximum ⭐
 LC 1438 - Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit ⭐
 LC 2762 - Continuous Subarrays
 LC 1696 - Jump Game VI
-LC 1425 - Constrained Subsequence Sum
-LC 1499 - Max Value of Equation
-LC 2398 - Maximum Number of Robots Within Budget
-LC 862 - Shortest Subarray with Sum at Least K ⭐
 
 Priority Queue / Heap (Queue-related applications)
 
@@ -56,5 +52,9 @@ LC 2398 - Maximum Number of Robots Within Budget
 Advanced Queue / Deque Applications
 
 LC 480 - Sliding Window Median
+LC 1499 - Max Value of Equation
+LC 2398 - Maximum Number of Robots Within Budget
+LC 862 - Shortest Subarray with Sum at Least K ⭐
+LC 1425 - Constrained Subsequence Sum
 LC 1439 - Find the Kth Smallest Sum of a Matrix With Sorted Rows
 LC 1697 - Checking Existence of Edge Length Limited Paths
