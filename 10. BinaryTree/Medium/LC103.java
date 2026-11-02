@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class LC103 {
+    public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
+        List<List<Integer>> list = new ArrayList<>();
+
+        if (root == null) {
+            return list;
+        }
+
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+
+        int chk = 0;
+
+        while (!q.isEmpty()) {
+            int size = q.size();
+            List<Integer> tmp = new ArrayList<>();
+
+            for (int i = 0; i < size; i++) {
+                TreeNode curr = q.poll();
+
+                tmp.add(curr.val);
+
+                if (curr.left != null) {
+                    q.add(curr.left);
+                }
+
+                if (curr.right != null) {
+                    q.add(curr.right);
+                }
+            }
+
+            if (chk % 2 != 0) {
+                Collections.reverse(tmp);
+            }
+
+            list.add(tmp);
+            chk++;
+        }
+
+        return list;
+    }
+}
