@@ -29,7 +29,6 @@ MEDIUM
 
 17. LC 98 - Validate Binary Search Tree
 18. LC 230 - Kth Smallest Element in a BST
-
 19. LC 236 - Lowest Common Ancestor of a Binary
 20. LC 114 - Flatten Binary Tree to Linked List
 21. LC 437 - Path Sum III
