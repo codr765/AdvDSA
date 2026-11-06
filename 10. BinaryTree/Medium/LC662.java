@@ -6,42 +6,44 @@ public class LC662 {
         if (root == null)
             return 0;
 
-        Queue<Pair<TreeNode, Long>> q = new LinkedList<>();
+        Queue<TreeNode> q = new LinkedList<>();
+        Queue<Long> idx = new LinkedList<>();
 
-        q.add(new Pair<>(root, 0L));
+        q.add(root);
+        idx.add(0L);
 
-        long ans = 0;
+        int width = 0;
 
         while (!q.isEmpty()) {
             int size = q.size();
 
-            long min = q.peek().getValue();
+            long min = idx.peek();
             long first = 0;
             long last = 0;
 
             for (int i = 0; i < size; i++) {
-                Pair<TreeNode, Long> p = q.poll();
-
-                TreeNode node = p.getKey();
-                long idx = p.getValue() - min;
+                TreeNode curr = q.poll();
+                long pos = idx.poll() - min;
 
                 if (i == 0)
-                    first = idx;
+                    first = pos;
                 if (i == size - 1)
-                    last = idx;
+                    last = pos;
 
-                if (node.left != null) {
-                    q.add(new Pair<>(node.left, 2 * idx + 1));
+                if (curr.left != null) {
+                    q.add(curr.left);
+                    idx.add(2 * pos);
                 }
 
-                if (node.right != null) {
-                    q.add(new Pair<>(node.right, 2 * idx + 2));
+                if (curr.right != null) {
+                    q.add(curr.right);
+                    idx.add(2 * pos + 1);
                 }
             }
 
-            ans = Math.max(ans, last - first + 1);
+            width = Math.max(width, (int) (last - first + 1));
         }
 
-        return (int) ans;
+        return width;
     }
 }
