@@ -11,28 +11,26 @@ public class LC863 {
     Map<TreeNode, TreeNode> parent = new HashMap<>();
 
     public List<Integer> distanceK(TreeNode root, TreeNode target, int k) {
-        List<Integer> ans = new ArrayList<>();
-
         findParent(root, null);
 
         Queue<TreeNode> q = new LinkedList<>();
+        List<Integer> ans = new ArrayList<>();
         Set<TreeNode> visited = new HashSet<>();
 
         q.add(target);
         visited.add(target);
 
-        int level = 0;
+        int tmp = 0;
 
         while (!q.isEmpty()) {
+            if (tmp == k) {
+                while (!q.isEmpty()) {
+                    ans.add(q.remove().val);
+                }
+                break;
+            }
 
             int size = q.size();
-
-            if (level == k) {
-                while (!q.isEmpty()) {
-                    ans.add(q.poll().val);
-                }
-                return ans;
-            }
 
             for (int i = 0; i < size; i++) {
                 TreeNode curr = q.poll();
@@ -47,15 +45,13 @@ public class LC863 {
                     visited.add(curr.right);
                 }
 
-                TreeNode p = parent.get(curr);
-
-                if (p != null && !visited.contains(p)) {
-                    q.add(p);
-                    visited.add(p);
+                if (parent.get(curr) != null && !visited.contains(parent.get(curr))) {
+                    q.add(parent.get(curr));
+                    visited.add(parent.get(curr));
                 }
             }
 
-            level++;
+            tmp++;
         }
 
         return ans;
