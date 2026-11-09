@@ -1,0 +1,48 @@
+EASY (1–9)
+
+1. LC 206 – Reverse Linked List
+2. LC 21 – Merge Two Sorted Lists
+3. LC 141 – Linked List Cycle
+4. LC 876 – Middle of the Linked List
+5. LC 203 – Remove Linked List Elements
+6. LC 83 – Remove Duplicates from Sorted List
+7. LC 234 – Palindrome Linked List
+8. LC 160 – Intersection of Two Linked Lists
+9. LC 1290 – Convert Binary Number in a Linked List to Integer
+
+
+MEDIUM (10–30)
+
+10. LC 19 – Remove Nth Node From End of List
+11. LC 237 – Delete Node in a Linked List
+12. LC 147 – Insertion Sort List
+13. LC 2 – Add Two Numbers
+14. LC 24 – Swap Nodes in Pairs
+15. LC 61 – Rotate List
+16. LC 82 – Remove Duplicates from Sorted List II
+17. LC 86 – Partition List
+18. LC 92 – Reverse Linked List II
+19. LC 138 – Copy List with Random Pointer
+20. LC 142 – Linked List Cycle II
+21. LC 143 – Reorder List
+22. LC 147 – Insertion Sort List
+23. LC 148 – Sort List
+24. LC 328 – Odd Even Linked List
+25. LC 369 – Plus One Linked List
+26. LC 445 – Add Two Numbers II
+27. LC 725 – Split Linked List in Parts
+28. LC 707 – Design Linked List
+29. LC 1019 – Next Greater Node In Linked List
+30. LC 1669 – Merge In Between Linked Lists
+
+
+HARD (31–38)
+
+31. LC 23 – Merge k Sorted Lists
+32. LC 25 – Reverse Nodes in k-Group
+33. LC 432 – All O`one Data Structure (Not a linked-list-specific problem)
+34. LC 460 – LFU Cache
+35. LC 1171 – Remove Zero Sum Consecutive Nodes from Linked List
+36. LC 2487 – Remove Nodes From Linked List
+37. LC 2807 – Insert Greatest Common Divisors in Linked List
+38. LC 2816 – Double a Number Represented as a Linked List
