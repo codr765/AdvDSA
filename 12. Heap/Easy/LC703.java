@@ -1,8 +1,10 @@
+import java.util.PriorityQueue;
+
 public class LC703 {
     PriorityQueue<Integer> pq;
     int k;
 
-    public KthLargest(int k, int[] nums) {
+    public LC703(int k, int[] nums) {
         this.k = k;
         pq = new PriorityQueue<>();
 
