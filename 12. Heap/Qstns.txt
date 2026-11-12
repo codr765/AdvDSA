@@ -1,0 +1,18 @@
+1	LC 703 – Kth Largest in a Stream	Easy
+2	LC 1046 – Last Stone Weight	Easy
+3	LC 215 – Kth Largest Element in Array	Medium
+4	LC 347 – Top K Frequent Elements	Medium
+5	LC 973 – K Closest Points to Origin	Medium
+6	LC 692 – Top K Frequent Words	Medium
+7	LC 378 – Kth Smallest Element in Sorted Matrix	Medium
+8	LC 451 – Sort Characters by Frequency	Medium
+9	LC 295 – Find Median from Data Stream	Hard
+10	LC 23 – Merge K Sorted Lists	Hard
+11	LC 502 – IPO	Hard
+12	LC 632 – Smallest Range Covering Elements from K Lists	Hard
+
+692	Top K Frequent Words	Medium	Frequency + Heap
+767	Reorganize String	Medium	Greedy + Heap
+621	Task Scheduler	Medium	Greedy + Heap
+1834	Single-Threaded CPU	Medium	Custom Priority Queue
+2402	Meeting Rooms III	Hard	Two Heaps
