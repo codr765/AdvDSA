@@ -1,0 +1,180 @@
+# 13. GREEDY – LEETCODE PRACTICE SHEET
+
+Total: 30 Questions
+Easy: 6
+Medium: 16
+Hard: 8
+
+========================================
+1. EASY – BUILD GREEDY INTUITION
+========================================
+
+1. LC 455 - Assign Cookies
+   Pattern: Sorting + Two Pointers
+
+2. LC 605 - Can Place Flowers
+   Pattern: Local Greedy
+
+3. LC 860 - Lemonade Change
+   Pattern: Greedy + Counting
+
+4. LC 121 - Best Time to Buy and Sell Stock
+   Pattern: Maintain Minimum
+
+5. LC 1005 - Maximize Sum Of Array After K Negations
+   Pattern: Sorting + Greedy
+
+6. LC 976 - Largest Perimeter Triangle
+   Pattern: Sorting + Greedy
+
+
+========================================
+2. MEDIUM – IMPORTANT INTERVIEW PATTERNS
+========================================
+
+A. JUMP GAME / REACHABILITY
+
+7. LC 55 - Jump Game
+   Pattern: Reachability
+
+8. LC 45 - Jump Game II
+   Pattern: Greedy + Range Expansion
+
+
+B. INTERVAL SCHEDULING
+
+9. LC 435 - Non-overlapping Intervals
+   Pattern: Interval Sorting
+
+10. LC 452 - Minimum Number of Arrows to Burst Balloons
+    Pattern: Interval Greedy
+
+11. LC 763 - Partition Labels
+    Pattern: Greedy + Last Occurrence
+
+12. LC 1029 - Two City Scheduling
+    Pattern: Sorting by Difference
+
+
+C. GREEDY + HEAP
+
+13. LC 1642 - Furthest Building You Can Reach
+    Pattern: Min Heap
+
+14. LC 621 - Task Scheduler
+    Pattern: Max Heap + Greedy
+
+15. LC 846 - Hand of Straights
+    Pattern: TreeMap + Greedy
+
+16. LC 948 - Bag of Tokens
+    Pattern: Sorting + Two Pointers
+
+
+D. OTHER IMPORTANT GREEDY PATTERNS
+
+17. LC 122 - Best Time to Buy and Sell Stock II
+    Pattern: Local Profit
+
+18. LC 134 - Gas Station
+    Pattern: Greedy Reset
+
+19. LC 406 - Queue Reconstruction by Height
+    Pattern: Sorting + Insertion
+
+20. LC 678 - Valid Parenthesis String
+    Pattern: Greedy Range
+
+21. LC 649 - Dota2 Senate
+    Pattern: Greedy + Queue
+
+22. LC 1578 - Minimum Time to Make Rope Colorful
+    Pattern: Local Greedy
+
+
+========================================
+3. HARD – ADVANCED INTERVIEW QUESTIONS
+========================================
+
+23. LC 135 - Candy
+    Pattern: Two-pass Greedy
+
+24. LC 330 - Patching Array
+    Pattern: Greedy + Range
+
+25. LC 630 - Course Schedule III
+    Pattern: Sorting + Max Heap
+
+26. LC 871 - Minimum Number of Refueling Stops
+    Pattern: Greedy + Max Heap
+
+27. LC 857 - Minimum Cost to Hire K Workers
+    Pattern: Sorting + Max Heap
+
+28. LC 1326 - Minimum Number of Taps to Open to Water a Garden
+    Pattern: Interval Greedy
+
+29. LC 321 - Create Maximum Number
+    Pattern: Greedy + Monotonic Stack
+
+30. LC 1665 - Minimum Initial Energy to Finish Tasks
+    Pattern: Sorting + Greedy
+
+
+========================================
+4. IMPORTANT GREEDY PATTERNS TO MASTER
+========================================
+
+1. Sorting + Greedy: 455, 435, 1029
+2. Two Pointers + Greedy: 455, 948
+3. Interval Greedy: 435, 452, 1326
+4. Reachability / Jump: 55, 45
+5. Greedy + Heap: 1642, 630, 871, 857
+6. Greedy + Queue: 649
+7. Greedy + Stack: 321
+8. Two-pass Greedy: 135
+9. Greedy + Counting: 860, 621
+10. Greedy + Range Expansion: 330, 678
+11. Greedy Reset: 134
+12. Greedy + Difference: 1029
+
+
+========================================
+5. RECOMMENDED SOLVING ORDER
+========================================
+
+PHASE 1 – FOUNDATION
+455, 605, 860, 121, 1005, 976
+
+PHASE 2 – CORE GREEDY
+55, 45, 435, 452, 763, 1029, 122, 134
+
+PHASE 3 – ADVANCED MEDIUM
+1642, 621, 846, 948, 406, 678, 649, 1578
+
+PHASE 4 – HARD
+135, 330, 630, 871, 857, 1326, 321, 1665
+
+
+========================================
+6. HOW TO APPROACH GREEDY PROBLEMS
+========================================
+
+Before coding, answer these questions:
+
+1. What is my greedy choice?
+2. Why is this choice optimal?
+3. What should I sort by?
+4. Can I prove that my local decision leads to a global optimum?
+
+Also identify whether the problem requires:
+- Sorting
+- Two Pointers
+- Heap / PriorityQueue
+- Stack
+- Queue
+- HashMap / TreeMap
+- Binary Search
+
+IMPORTANT QUESTIONS TO MASTER:
+LC 55, 45, 435, 452, 134, 135, 630, 871.
