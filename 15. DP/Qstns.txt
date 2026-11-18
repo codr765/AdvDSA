@@ -1,0 +1,30 @@
+EASY (5)
+
+1. LC 509 – Fibonacci Number
+2. LC 70 – Climbing Stairs
+3. LC 746 – Min Cost Climbing Stairs
+4. LC 198 – House Robber
+5. LC 62 – Unique Paths
+
+
+MEDIUM (11)
+
+6. LC 63 – Unique Paths II
+7. LC 322 – Coin Change
+8. LC 416 – Partition Equal Subset Sum
+9. LC 518 – Coin Change II
+10. LC 1143 – Longest Common Subsequence
+11. LC 300 – Longest Increasing Subsequence
+12. LC 139 – Word Break
+13. LC 91 – Decode Ways
+14. LC 309 – Best Time to Buy and Sell Stock with Cooldown
+15. LC 494 – Target Sum
+16. LC 337 – House Robber III
+
+
+HARD (4)
+
+17. LC 72 – Edit Distance
+18. LC 312 – Burst Balloons
+19. LC 123 – Best Time to Buy and Sell Stock III
+20. LC 887 – Super Egg Drop
