@@ -1,5 +1,6 @@
 public class LC746 {
-    int prev2 = cost[0];
+    public int minCostClimbingStairs(int[] cost) {
+        int prev2 = cost[0];
         int prev1 = cost[1];
 
         for (int i = 2; i < cost.length; i++) {
@@ -11,4 +12,5 @@ public class LC746 {
         }
 
         return Math.min(prev1, prev2);
+    }
 }

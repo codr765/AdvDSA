@@ -1,14 +1,14 @@
-EASY (5)
+EASY (3)
 
 1. LC 509 – Fibonacci Number
 2. LC 70 – Climbing Stairs
 3. LC 746 – Min Cost Climbing Stairs
+
+
+MEDIUM (13)
+
 4. LC 198 – House Robber
 5. LC 62 – Unique Paths
-
-
-MEDIUM (11)
-
 6. LC 63 – Unique Paths II
 7. LC 322 – Coin Change
 8. LC 416 – Partition Equal Subset Sum
