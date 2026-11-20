@@ -27,7 +27,6 @@ Hard: 8
 6. LC 976 - Largest Perimeter Triangle
    Pattern: Sorting + Greedy
 
-
 ========================================
 2. MEDIUM – IMPORTANT INTERVIEW PATTERNS
 ========================================
@@ -54,7 +53,6 @@ B. INTERVAL SCHEDULING
 
 12. LC 1029 - Two City Scheduling
     Pattern: Sorting by Difference
-
 
 C. GREEDY + HEAP
 
