@@ -1,29 +1,29 @@
 import java.util.ArrayList;
 
 public class LC1352 {
-    ArrayList<Integer> lst;
+    ArrayList<Integer> list;
 
     public LC1352() {
-        lst = new ArrayList<>();
-        lst.add(1);
+        list = new ArrayList<>();
+        list.add(1);
     }
 
     public void add(int num) {
         if (num == 0) {
-            lst.clear();
-            lst.add(1);
+            list.clear();
+            list.add(1);
         } else {
-            lst.add(lst.get(lst.size() - 1) * num);
+            list.add(list.get(list.size() - 1) * num);
         }
     }
 
     public int getProduct(int k) {
-        int n = lst.size();
+        int n = list.size();
 
         if (k >= n) {
             return 0;
         }
 
-        return lst.get(n - 1) / lst.get(n - k - 1);
+        return list.get(n - 1) / list.get(n - k - 1);
     }
 }
