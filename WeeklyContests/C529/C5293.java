@@ -5,6 +5,7 @@ import java.util.PriorityQueue;
 
 public class C5293 {
     static long[] earliestActivationTimes(int n, int[][] edges, int[] requiredSignals) {
+        @SuppressWarnings("unchecked")
         List<int[]>[] adj = new ArrayList[n];
 
         for (int i = 0; i < n; i++) {
