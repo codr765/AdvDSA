@@ -1,4 +1,4 @@
-# 13. GREEDY – LEETCODE PRACTICE SHEET
+# 13. GREEDY
 
 Total: 30 Questions
 Easy: 6
